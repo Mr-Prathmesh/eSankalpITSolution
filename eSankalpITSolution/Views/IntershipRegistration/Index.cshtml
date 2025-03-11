@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script src="~/Content/JavaScriptReg.js"></script>
+<div class="col-lg-7">
+         <div class="row gy-4">
+            <input type="hidden" id="hdnID" />
+            <div class="col-md-12 col-lg-6">
+                <label   class="pb-2">Name</label>
+                <input type="text" name="name" id="txtname" class="form-control" required="">
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label   class="pb-2">Mobile No</label>
+                <input type="text" name="Mobile" id="txtmobile" class="form-control" required="">
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label   class="pb-2">Email</label>
+                <input type="email" class="form-control" name="txtemail" id="txtemail" required="">
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label   class="pb-2">Education</label>
+                <input type="text" name="Education" id="txteducation" class="form-control" required="">
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label   class="pb-2">Percentage</label>
+                <input type="text" name="Percentage" id="txtpercentage" class="form-control" required="">
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label  class="pb-2">Service</label>
+                <input type="text" name="Services" id="txtservice" class="form-control" required="">
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label   class="pb-2">Technology</label>
+                <input type="text" class="form-control" name="Technology" id="txttechnology" required="">
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label class="pb-2">Office</label>
+                <input class="form-control" name="office" id="txtoffice" required=""> 
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label class="pb-2">College</label>
+                <input class="form-control" name="College" id="txtcollege" required=""> 
+            </div>
+
+            <div class="col-md-12 col-lg-6">
+                <label   class="pb-2">Address</label>
+                <input class="form-control" name="Address" rows="3" id="txtaddress" required=""> 
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                <input  type="button" class="text-bg-dark" onclick="Savereg()" value="submit">
+            </div>
+
+        </div>
+ </div>
+
+
+
+
+
