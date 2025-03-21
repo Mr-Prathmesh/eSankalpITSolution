@@ -1,9 +1,9 @@
-﻿ 
-using System;
+﻿ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using eSankalpITSolution.Data;
+
 namespace eSankalpITSolution.Models
 {
     public class InternshipRegistrationModel

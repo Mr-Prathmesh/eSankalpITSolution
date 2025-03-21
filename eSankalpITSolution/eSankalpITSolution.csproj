@@ -127,6 +127,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\FeedbackController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\IntershipRegistrationController.cs" />
     <Compile Include="Controllers\PortfolioController.cs" />
@@ -136,7 +137,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\FeedbackModel.cs" />
     <Compile Include="Models\InternshipRegistrationModel.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -206,10 +209,15 @@
     <Content Include="Content\forms\contact.php" />
     <Content Include="Content\forms\newsletter.php" />
     <Content Include="Content\forms\Readme.txt" />
+    <Content Include="Content\img\133869307578428036.png" />
+    <Content Include="Content\JavaScriptFeed.js" />
     <Content Include="Content\JavaScriptReg.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="obj\Debug\eSankalpITSolution.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\eSankalpITSolution.dll" />
+    <Content Include="obj\Debug\eSankalpITSolution.pdb" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -291,6 +299,11 @@
     <Content Include="Content\assets\vendor\bootstrap\js\bootstrap.js.map" />
     <Content Include="Content\assets\vendor\bootstrap\js\bootstrap.min.js.map" />
     <Content Include="Content\assets\vendor\swiper\swiper-bundle.min.js.map" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="obj\Debug\eSankalp.C0A1E1AD.Up2Date" />
+    <Content Include="obj\Debug\eSankalpITSolution.csproj.AssemblyReference.cache" />
+    <Content Include="obj\Debug\eSankalpITSolution.csproj.CoreCompileInputs.cache" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
@@ -321,9 +334,11 @@
     <Content Include="Views\Team\Index.cshtml" />
     <Content Include="Views\Pricing\Index.cshtml" />
     <Content Include="Views\IntershipRegistration\Index.cshtml" />
+    <Content Include="Views\Feedback\FeedbackIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap.rtl.min.css.map" />

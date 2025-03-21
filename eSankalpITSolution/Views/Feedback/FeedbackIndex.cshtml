@@ -1,0 +1,58 @@
+﻿
+@{
+    ViewBag.Title = "FeedbackIndex";
+}
+
+<script src="~/Scripts/jquery-3.7.0.min.js"></script>
+<script src="~/Content/JavaScriptFeed.js"></script>
+
+
+<h1>HI PARTH</h1>
+<div class="container mt-5">
+    <div class="card shadow">
+        <div class="card-header bg-primary text-white">
+            <h4 class="text-center">Feedback Form</h4>
+        </div>
+        <div class="card-body">
+             
+                <input type="hidden" id="hdnID" />
+                <div class="mb-3">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="txtname" placeholder="Enter your name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mobno" class="form-label">Mobile Number</label>
+                    <input type="text" class="form-control" id="txtmobno" placeholder="Enter mobile number" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="text" class="form-control" id="txtemail" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="technology" class="form-label">Technology</label>
+                    <input type="text" class="form-control" id="txttechnology" placeholder="Enter technology name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="office" class="form-label">Office</label>
+                    <input type="text" class="form-control" id="txtoffice" placeholder="Enter office name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="compselected" class="form-label">Company Selected</label>
+                    <input type="text" class="form-control" id="txtcompselected" placeholder="Enter company name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="feedback" class="form-label">Feedback</label>
+                    <textarea class="form-control" id="txtfeedback" rows="3" placeholder="Enter your feedback" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="image" class="form-label">Upload Image</label>
+                    <input type="file" class="form-control" id="fuimage" accept="image/*">
+                </div>
+                <div class="text-center">
+                    <button type="submit" onclick="Savereg()" class="btn btn-success">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            
+        </div>
+    </div>
+</div>
